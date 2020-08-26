@@ -19,6 +19,6 @@ end
 def find_valid_calls(planeteer_calls)
   valid_calls = ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
   planeteer_calls.find do |str|
-    str if planeteer_calls.include?(valid_calls.each)
+    valid_calls.include?(str)
   end
 end
